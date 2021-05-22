@@ -13,13 +13,13 @@ generateSongText(99);
 
 function  bottles(num) {
     if (num % 10 === 1 && num % num !== 11) {
-        return 'бутылка';
+        return 'bottles';
     }
     else if (num % 10 >= 2 && num % 10 < 5) {
-        return 'бутылки';
+        return 'bottle';
     }
     else if (num >= 5 && num <= 99 || num == 0) {
-        return 'бутылок';
+        return 'bottles';
     }
 }
 
